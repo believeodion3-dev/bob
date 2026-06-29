@@ -1,0 +1,415 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#one img {
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  height: 75px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  justify-content: space-around;
+  color: rgb(1, 1, 31);
+  margin: 19px;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 5px 10px;
+  box-shadow: 0px 3px 3px 0px black;
+  border-radius: 5px;
+}
+
+.se nav ul li a:hover:not(.btn) {
+  color: rgb(109, 48, 48);
+}
+
+.btn:hover {
+  border: 1px solid rgb(109, 48, 48);
+  color: rgb(109, 48, 48);
+  box-shadow: 0px 3px 3px 0px rgb(109, 48, 48);
+}
+
+#two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 0px;
+  margin: 55px 100px;
+}
+
+.abn img {
+  width: 600px;
+}
+
+.nba h1 {
+  margin-bottom: 20px;
+  color: rgb(3, 3, 57);
+  max-width: 300px;
+  text-transform: capitalize;
+}
+
+.nba p {
+  max-width: 400px;
+  color: rgb(181, 173, 173);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.nba a {
+  padding: 5px 15px;
+  text-decoration: none;
+  border: 1.4px solid rgb(61, 61, 157);
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgb(103, 103, 179);
+  color: rgb(61, 61, 157);
+}
+
+#three {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ft h2 {
+  text-transform: capitalize;
+  color: rgb(3, 3, 57);
+  margin-bottom: 17px;
+}
+
+.ft p {
+  max-width: 500px;
+  margin: auto;
+  color: rgb(181, 173, 173);
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+#four ul {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: auto;
+  padding: 12px 0px;
+  list-style: none;
+  margin-top: 3%;
+  border: 1px solid white;
+  align-items: center;
+  border-radius: 3px;
+  border-bottom: 3px solid red;
+}
+
+.sp ul li a {
+  text-decoration: none;
+  margin: 0px 40px;
+  text-align: center;
+  color: rgb(63, 58, 58);
+}
+
+
+.sp ul li a:hover {
+  color: rgb(109, 48, 48);
+}
+
+#five {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6% 120px;
+}
+
+.vg img {
+  width: 400px;
+  box-shadow: 0px 4px 4px 4px black;
+  border-radius: 5px;
+}
+
+.gv p {
+  max-width: 400px;
+  font-size: 14px;
+  color: rgb(181, 173, 173);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.gv h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: rgb(3, 3, 57);
+}
+
+.gv a {
+  border: 1px solid;
+  background-color: rgb(61, 61, 157);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#six {
+
+  text-align: center;
+  margin-top: 8%;
+}
+
+.ex p {
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.5;
+  color: rgb(181, 173, 173);
+}
+
+.ex h2 {
+  text-transform: capitalize;
+  color: rgb(3, 3, 57);
+  margin-bottom: 8px;
+}
+
+#seven {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+
+}
+
+.fx {
+  width: 200px;
+  margin: 0px 20px;
+  height: 260px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 1px 1px black;
+  border: none;
+  margin-top: 4%;
+
+}
+
+.ro {
+  width: 200px;
+  margin: 0px 20px;
+  height: 260px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 1px 1px black;
+  border: none;
+}
+
+.re img {
+  margin-left: 59px;
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.re h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(3, 3, 57);
+  font-size: 18px;
+}
+
+.re p {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(181, 173, 173);
+}
+
+.re h4 {
+  color: rgb(181, 173, 173);
+  text-align: center;
+  margin: 3px;
+  margin-bottom: 30px;
+}
+
+.tl {
+  border: 1px solid rgb(61, 61, 157);
+  text-align: center;
+  margin: 25px;
+  text-decoration: none;
+  padding: 7px 4px;
+  background-color: rgb(61, 61, 157);
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tl:hover {
+  background-color: white;
+  color: rgb(61, 61, 157);
+  border: 1px solid rgb(61, 61, 157);
+}
+
+#eight {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.q p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.4;
+  color: rgb(181, 173, 173);
+  margin-bottom: 4%;
+}
+
+.q h2 {
+  color: rgb(3, 3, 57);
+  margin-bottom: 15px;
+  text-transform: capitalize;
+
+}
+
+
+.down {
+  margin-left: 28%;
+}
+
+.down p {
+  max-width: 500px;
+  margin-top: 13px;
+  line-height: 1.4;
+  margin-bottom: 13px;
+}
+
+.down ul {
+  padding: 14px 0px;
+  border-top: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
+  width: 500px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.fo {
+  background-color: rgb(3, 3, 57);
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 6px 10px;
+  border: 1px solid rgb(3, 3, 57);
+  width: 100px;
+  font-size: 13px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  border-radius: 6px;
+  margin-left: 24%;
+}
+
+
+.down ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  text-align: center;
+
+}
+
+.down ul li a i {
+  width: 100%;
+  text-align: right;
+  color: rgb(61, 61, 157);
+}
+
+.jo {
+  text-align: center;
+  margin-top: 8%;
+  background-color: rgb(38, 38, 194);
+  color: white;
+  line-height: 3rem;
+}
+
+.up h3 {
+  font-size: 15px;
+  margin-top: 18px;
+}
+
+.up h1 {
+  max-width: 300px;
+  margin: auto;
+}
+
+input[type=email] {
+  padding: 5px 14px;
+  border: 2px solid rgb(109, 48, 48);
+  color: black;
+  margin: 10px;
+}
+
+.na {
+  color: rgb(109, 48, 48);
+  text-decoration: none;
+  background-color: white;
+  border: 1.5px solid rgb(109, 48, 48);
+  padding: 5px 10px;
+}
+
+.obo img {
+  width: 200px;
+}
+
+#ten {
+  display: flex;
+  background-color: rgb(41, 41, 62);
+  line-height: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.obo {
+  display: flex;
+  background-color: rgb(28, 28, 64);
+  align-items: center;
+}
+
+.obo img {
+  margin: 0px 10px;
+}
+
+.obo ul {
+  display: flex;
+  list-style: none;
+}
+.obo .ur{
+  margin-left: 50px;
+}
+
+.obo ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 10px;
+}
+
+.oob .bm {
+  margin-left: 400px;
+}
+
+.oob a img {
+  width: 18px;
+}
+
+.oob a img:hover {
+  background-color: rgb(109, 48, 48);
+  padding: 3px;
+}
+
+.boo ul li a:hover {
+  color: rgb(109, 48, 48);
+}
